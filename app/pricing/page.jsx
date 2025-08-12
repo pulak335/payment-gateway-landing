@@ -1,12 +1,14 @@
 
 import { Fragment } from "react";
 import { Button } from "../../components/ui/button";
+import Link from "next/link";
 import {
   Accordion,
   AccordionItem,
   AccordionTrigger,
   AccordionContent,
 } from "../../components/ui/accordion";
+
 
 export default function PricingPage() {
   return (
@@ -42,9 +44,12 @@ export default function PricingPage() {
                 <li><span className="text-xs">•</span> No Additional Payment Method Fee</li>
               </ul>
               <div className="mt-auto pt-6">
-                <Button className="w-full bg-pink-600 hover:bg-pink-800 text-white font-bold py-2 px-4 rounded">
-                  Choose Plan
-                </Button>
+                <Link href="/joinus">
+                  <Button className="w-full bg-pink-600 hover:bg-pink-800 text-white font-bold py-2 px-4 rounded">
+                    Choose Plan
+                  </Button>
+                </Link>
+                
               </div>
             </div>
 
@@ -71,10 +76,12 @@ export default function PricingPage() {
                 <li><span className="text-xs">•</span> All Payment Methods By Default</li>
                 <li><span className="text-xs">•</span> No Additional Payment Method Fee</li>
               </ul>
-                            <div className="mt-auto pt-6">
+                <div className="mt-auto pt-6">
+                <Link href="/joinus">
                 <Button className="w-full bg-purple-600 hover:bg-purple-800 text-white font-bold py-2 px-4 rounded">
                   Choose Plan
                 </Button>
+                </Link>
               </div>
             </div>
 
@@ -102,9 +109,11 @@ export default function PricingPage() {
                 <li><span className="text-xs">•</span> No Additional Payment Method Fee</li>
               </ul>
               <div className="mt-auto pt-6">
+                <Link href="/joinus">
                 <Button className="w-full bg-indigo-600 hover:bg-indigo-800 text-white font-bold py-2 px-4 rounded">
                   Choose Plan
                 </Button>
+                </Link>
               </div>
             </div>
           </div>
