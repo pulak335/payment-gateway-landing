@@ -4,7 +4,7 @@ const ComingSoon = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 text-gray-800">
       <h1 className="text-5xl font-bold mb-4">Coming Soon!</h1>
-      <p className="text-xl mb-8">We&apos;re working hard to bring you something amazing. Stay tuned!</p>
+      <p className="text-xl mb-8">We&apos;re working hard to bring you something amazing. Stay tuned</p>
       <div className="relative w-64 h-64">
         {/* You can add an SVG or image here */}
         <svg
