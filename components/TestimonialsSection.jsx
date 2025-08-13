@@ -73,7 +73,7 @@ const TestimonialsSection = () => {
             {testimonials.concat(testimonials).map((testimonial, index) => (
               <div key={index} className="w-1/2 flex-shrink-0 p-4">
                 <div className="bg-gray-50 p-6 rounded-lg shadow-md h-full">
-                  <p className="text-lg italic text-gray-700 mb-4">\"{testimonial.quote}\"</p>
+                  <p className="text-lg italic text-gray-700 mb-4">&quot;{testimonial.quote}&quot;</p>
                   <div className="flex items-center">
                     <Image
                       src={testimonial.logo}

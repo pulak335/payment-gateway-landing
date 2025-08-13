@@ -109,12 +109,12 @@ export default function JoinUsPage() {
                 <div>
                   <label htmlFor="accountsMobile" className="block text-sm font-medium text-gray-700">Mobile *</label>
                   <input type="text" id="accountsMobile" name="accountsMobile" placeholder="01686339288" className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" />
-                  <p className="mt-2 text-sm text-gray-500">Contact person's valid mobile number.</p>
+                  <p className="mt-2 text-sm text-gray-500">Contact person&apos;s valid mobile number.</p>
                 </div>
                 <div>
                   <label htmlFor="accountsEmail" className="block text-sm font-medium text-gray-700">Email *</label>
                   <input type="email" id="accountsEmail" name="accountsEmail" placeholder="contact@yourdomain.com" className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" />
-                  <p className="mt-2 text-sm text-gray-500">Contact person's valid email address.</p>
+                  <p className="mt-2 text-sm text-gray-500">Contact person&apos;s valid email address.</p>
                 </div>
               </div>
 
@@ -122,7 +122,7 @@ export default function JoinUsPage() {
               <h3 className="text-xl font-medium mb-2">Technical Contact</h3>
               <div className="flex items-center mb-4">
                 <input type="checkbox" id="sameAsAccounts" name="sameAsAccounts" className="h-4 w-4 text-purple-800 border-purple-500 rounded" />
-                <label htmlFor="sameAsAccounts" className="ml-2 block text-sm text-gray-900">Same as Contact Person's Details</label>
+                <label htmlFor="sameAsAccounts" className="ml-2 block text-sm text-gray-900">Same as Contact Person&apos;s Details</label>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
@@ -137,12 +137,12 @@ export default function JoinUsPage() {
                 <div>
                   <label htmlFor="technicalMobile" className="block text-sm font-medium text-gray-700">Mobile *</label>
                   <input type="text" id="technicalMobile" name="technicalMobile" placeholder="01686339288" className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" />
-                  <p className="mt-2 text-sm text-gray-500">Contact person's valid mobile number.</p>
+                  <p className="mt-2 text-sm text-gray-500">Contact person&apos;s valid mobile number.</p>
                 </div>
                 <div>
                   <label htmlFor="technicalEmail" className="block text-sm font-medium text-gray-700">Email *</label>
                   <input type="email" id="technicalEmail" name="technicalEmail" placeholder="contact@yourdomain.com" className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" />
-                  <p className="mt-2 text-sm text-gray-500">Contact person's valid email address.</p>
+                  <p className="mt-2 text-sm text-gray-500">Contact person&apos;s valid email address.</p>
                 </div>
               </div>
             </div>
