@@ -29,7 +29,7 @@ export default function TermsConditionsPage() {
           <div className="bg-white rounded-2xl shadow-xl p-8 mb-8">
             <h2 className="text-3xl font-bold text-gray-800 mb-6">1. Introduction</h2>
             <p className="text-gray-600 mb-4 leading-relaxed">
-              These Terms and Conditions ("Terms") govern your use of ShortlyPay's payment gateway services, website, and related applications (collectively, the "Services"). By accessing or using our Services, you agree to be bound by these Terms.
+              These Terms and Conditions (&ldquo;Terms&rdquo;) govern your use of ShortlyPay&apos;s payment gateway services, website, and related applications (collectively, the &ldquo;Services&rdquo;). By accessing or using our Services, you agree to be bound by these Terms.
             </p>
             <p className="text-gray-600 leading-relaxed">
               If you do not agree to these Terms, please do not use our Services. We reserve the right to modify these Terms at any time, and such modifications will be effective immediately upon posting.
@@ -41,19 +41,19 @@ export default function TermsConditionsPage() {
             <h2 className="text-3xl font-bold text-gray-800 mb-6">2. Definitions</h2>
             <div className="space-y-4">
               <div>
-                <h3 className="text-xl font-semibold text-gray-700 mb-2">"Services"</h3>
-                <p className="text-gray-600">Refers to ShortlyPay's payment gateway, website, mobile applications, and any related services.</p>
+                <h3 className="text-xl font-semibold text-gray-700 mb-2">&ldquo;Services&rdquo;</h3>
+                <p className="text-gray-600">Refers to ShortlyPay&apos;s payment gateway, website, mobile applications, and any related services.</p>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-700 mb-2">"User," "you," "your"</h3>
+                <h3 className="text-xl font-semibold text-gray-700 mb-2">&ldquo;User,&rdquo; &ldquo;you,&rdquo; &ldquo;your&rdquo;</h3>
                 <p className="text-gray-600">Refers to any individual or entity using our Services.</p>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-700 mb-2">"Company," "we," "us," "our"</h3>
+                <h3 className="text-xl font-semibold text-gray-700 mb-2">&ldquo;Company,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; &ldquo;our&rdquo;</h3>
                 <p className="text-gray-600">Refers to ShortlyPay and its affiliates.</p>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-700 mb-2">"Account"</h3>
+                <h3 className="text-xl font-semibold text-gray-700 mb-2">&ldquo;Account&rdquo;</h3>
                 <p className="text-gray-600">Refers to your registered account with ShortlyPay.</p>
               </div>
             </div>

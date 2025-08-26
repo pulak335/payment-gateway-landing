@@ -42,7 +42,7 @@ export default function DemoPage() {
     // Handle form submission
     console.log('Demo request submitted:', formData);
     // Here you would typically send the data to your backend
-    alert('Thank you! We\'ll contact you within 24 hours to confirm your demo appointment.');
+    alert('Thank you! We&apos;ll contact you within 24 hours to confirm your demo appointment.');
   };
 
   const demoFeatures = [
@@ -131,7 +131,7 @@ export default function DemoPage() {
               <div className="bg-white rounded-2xl shadow-xl p-8">
                 <h2 className="text-3xl font-bold text-gray-800 mb-6">Schedule Your Demo</h2>
                 <p className="text-gray-600 mb-8">
-                  Fill out the form below and we'll contact you within 24 hours to confirm your demo appointment.
+                  Fill out the form below and we&apos;ll contact you within 24 hours to confirm your demo appointment.
                 </p>
                 
                 <form onSubmit={handleSubmit} className="space-y-6">
@@ -345,7 +345,7 @@ export default function DemoPage() {
 
             {/* Demo Features & Info */}
             <div>
-              <h2 className="text-3xl font-bold text-gray-800 mb-8">What You'll See in the Demo</h2>
+              <h2 className="text-3xl font-bold text-gray-800 mb-8">What You&apos;ll See in the Demo</h2>
               
               {/* Features Grid */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">

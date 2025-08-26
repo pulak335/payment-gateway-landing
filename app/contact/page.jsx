@@ -9,7 +9,7 @@ const ContactPage = () => {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-5xl font-bold text-white mb-6">Get in Touch</h1>
           <p className="text-xl text-purple-100 max-w-2xl mx-auto">
-            Have questions about our payment gateway? We're here to help you succeed.
+            Have questions about our payment gateway? We&apos;re here to help you succeed.
           </p>
         </div>
       </section>

@@ -158,7 +158,7 @@ const OurCoreFeaturesSection = () => {
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Discover the powerful tools and capabilities that make ShortlyPay the preferred choice for businesses worldwide. 
-            From instant processing to advanced security, we've got everything you need to succeed.
+            From instant processing to advanced security, we&apos;ve got everything you need to succeed.
           </p>
         </div>
 

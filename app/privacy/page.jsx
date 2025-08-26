@@ -29,7 +29,7 @@ export default function PrivacyPolicyPage() {
           <div className="bg-white rounded-2xl shadow-xl p-8 mb-8">
             <h2 className="text-3xl font-bold text-gray-800 mb-6">Introduction</h2>
             <p className="text-gray-600 mb-4 leading-relaxed">
-              ShortlyPay ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our payment gateway services, website, and related applications.
+              ShortlyPay (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our payment gateway services, website, and related applications.
             </p>
             <p className="text-gray-600 leading-relaxed">
               By using our services, you agree to the collection and use of information in accordance with this policy. If you do not agree with our policies and practices, please do not use our services.
@@ -156,7 +156,7 @@ export default function PrivacyPolicyPage() {
 
           {/* Children's Privacy */}
           <div className="bg-white rounded-2xl shadow-xl p-8 mb-8">
-            <h2 className="text-3xl font-bold text-gray-800 mb-6">Children's Privacy</h2>
+            <h2 className="text-3xl font-bold text-gray-800 mb-6">Children&apos;s Privacy</h2>
             <p className="text-gray-600 leading-relaxed">
               Our services are not intended for children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe we have collected such information, please contact us immediately.
             </p>
@@ -166,7 +166,7 @@ export default function PrivacyPolicyPage() {
           <div className="bg-white rounded-2xl shadow-xl p-8 mb-8">
             <h2 className="text-3xl font-bold text-gray-800 mb-6">Changes to This Privacy Policy</h2>
             <p className="text-gray-600 mb-4 leading-relaxed">
-              We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.
+              We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the &ldquo;Last Updated&rdquo; date.
             </p>
             <p className="text-gray-600 leading-relaxed">
               We encourage you to review this Privacy Policy periodically for any changes. Your continued use of our services after any changes constitutes acceptance of the updated policy.
