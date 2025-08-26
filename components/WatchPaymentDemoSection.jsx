@@ -8,7 +8,7 @@ const WatchPaymentDemoSection = () => {
           Watch Our Payment Demo
         </h2>
         <p className="mt-4 text-lg text-gray-600">
-          See how ShortyPay simplifies your payment process with a quick demo.
+          See how ShortlyPay simplifies your payment process with a quick demo.
         </p>
         <div className="mt-10 flex justify-center">
           <div className="w-full max-w-3xl aspect-video bg-gray-200 rounded-lg overflow-hidden shadow-xl">
