@@ -54,7 +54,7 @@ const PricingCard = ({ plan, features, gradient, badge, popular }) => (
     
     {/* CTA Button */}
     <div className="relative">
-      <Link href="/joinus" className="block">
+      <Link href="/joinus" className="block cursor-pointer">
         <Button className={`w-full py-3 px-6 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg ${
           popular 
             ? 'bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white'
@@ -317,11 +317,11 @@ export default function PricingPage() {
               Choose the plan that fits your business needs and start accepting payments today.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button className="bg-white text-purple-600 hover:bg-gray-100 font-semibold py-3 px-8 rounded-xl transition-all duration-300 transform hover:scale-105">
+              <Button className="bg-white text-purple-600 hover:bg-gray-100 font-semibold py-3 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 cursor-pointer">
                 Start Free Trial
               </Button>
                                  <Link href="/demo">
-                     <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-purple-600 font-semibold py-3 px-8 rounded-xl transition-all duration-300 transform hover:scale-105">
+                     <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-purple-600 font-semibold py-3 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 cursor-pointer">
                        Schedule Demo
                      </Button>
                    </Link>

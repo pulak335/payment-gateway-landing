@@ -11,22 +11,22 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/" className="hover:text-gray-400 transition-colors">Home</Link>
+                <Link href="/" className="hover:text-gray-400 transition-colors cursor-pointer">Home</Link>
               </li>
               <li>
-                <Link href="/features" className="hover:text-gray-400 transition-colors">Features</Link>
+                <Link href="/features" className="hover:text-gray-400 transition-colors cursor-pointer">Features</Link>
               </li>
               <li>
-                <Link href="/pricing" className="hover:text-gray-400 transition-colors">Pricing</Link>
+                <Link href="/pricing" className="hover:text-gray-400 transition-colors cursor-pointer">Pricing</Link>
               </li>
               <li>
-                <Link href="/developers" className="hover:text-gray-400 transition-colors">Developers</Link>
+                <Link href="/developers" className="hover:text-gray-400 transition-colors cursor-pointer">Developers</Link>
               </li>
               <li>
-                <Link href="/demo" className="hover:text-gray-400 transition-colors">Demo</Link>
+                <Link href="/demo" className="hover:text-gray-400 transition-colors cursor-pointer">Demo</Link>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-gray-400 transition-colors">Contact</Link>
+                <Link href="/contact" className="hover:text-gray-400 transition-colors cursor-pointer">Contact</Link>
               </li>
             </ul>
           </div>
@@ -34,13 +34,13 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Legal</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/privacy" className="hover:text-gray-400 transition-colors">Privacy Policy</Link>
+                <Link href="/privacy" className="hover:text-gray-400 transition-colors cursor-pointer">Privacy Policy</Link>
               </li>
               <li>
-                <Link href="/terms" className="hover:text-gray-400 transition-colors">Terms & Conditions</Link>
+                <Link href="/terms" className="hover:text-gray-400 transition-colors cursor-pointer">Terms & Conditions</Link>
               </li>
               <li>
-                <Link href="/refund" className="hover:text-gray-400 transition-colors">Refund Policy</Link>
+                <Link href="/refund" className="hover:text-gray-400 transition-colors cursor-pointer">Refund Policy</Link>
               </li>
             </ul>
           </div>

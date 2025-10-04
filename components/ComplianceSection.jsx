@@ -177,11 +177,11 @@ const ComplianceSection = () => {
               Join the growing community of businesses that trust ShortlyPay for their payment security and compliance needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-white text-purple-600 hover:bg-gray-100 font-semibold py-4 px-8 rounded-xl text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+              <button className="bg-white text-purple-600 hover:bg-gray-100 font-semibold py-4 px-8 rounded-xl text-lg transition-all duration-300 transform hover:scale-105 shadow-lg cursor-pointer">
                 Learn More
               </button>
               <Link href="/demo">
-                <button className="border-2 border-white text-white hover:bg-white hover:text-purple-600 font-semibold py-4 px-8 rounded-xl text-lg transition-all duration-300 transform hover:scale-105">
+                <button className="border-2 border-white text-white hover:bg-white hover:text-purple-600 font-semibold py-4 px-8 rounded-xl text-lg transition-all duration-300 transform hover:scale-105 cursor-pointer">
                   Schedule Demo
                 </button>
               </Link>

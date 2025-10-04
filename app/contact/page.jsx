@@ -214,7 +214,7 @@ const ContactPage = () => {
                     className="mt-1 h-4 w-4 text-purple-600 focus:ring-purple-500 border-gray-300 rounded"
                   />
                   <label htmlFor="privacy" className="text-sm text-gray-600">
-                    I agree to the <a href="#" className="text-purple-600 hover:text-purple-700 underline">Privacy Policy</a> and consent to being contacted regarding my inquiry.
+                    I agree to the <a href="#" className="text-purple-600 hover:text-purple-700 underline cursor-pointer">Privacy Policy</a> and consent to being contacted regarding my inquiry.
                   </label>
                 </div>
 

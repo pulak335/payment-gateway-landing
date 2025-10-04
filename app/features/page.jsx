@@ -179,11 +179,11 @@ export default function FeaturesPage() {
             enhance security, and drive unprecedented business growth.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button className="bg-white text-purple-700 hover:bg-gray-100 text-lg px-8 py-4 rounded-xl shadow-lg transition-all duration-300 transform hover:scale-105">
+            <Button className="bg-white text-purple-700 hover:bg-gray-100 text-lg px-8 py-4 rounded-xl shadow-lg transition-all duration-300 transform hover:scale-105 cursor-pointer">
               Get Started Today
             </Button>
                              <Link href="/demo">
-                   <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-purple-700 text-lg px-8 py-4 rounded-xl transition-all duration-300 transform hover:scale-105">
+                   <Button variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-purple-700 text-lg px-8 py-4 rounded-xl transition-all duration-300 transform hover:scale-105 cursor-pointer">
                      Schedule Demo
                    </Button>
                  </Link>

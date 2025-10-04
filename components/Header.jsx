@@ -35,10 +35,10 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link href="/" className="flex items-center space-x-2 group">
+            <Link href="/" className="flex items-center space-x-2 group cursor-pointer">
               <div className={`p-2 rounded-xl transition-all duration-300 ${
-                isScrolled 
-                  ? 'bg-purple-100 group-hover:bg-purple-200' 
+                isScrolled
+                  ? 'bg-purple-100 group-hover:bg-purple-200'
                   : 'bg-white/20 group-hover:bg-white/30'
               }`}>
                 <svg className="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -60,12 +60,13 @@ const Header = () => {
               { href: '/features', label: 'Features' },
               { href: '/pricing', label: 'Pricing' },
               { href: '/developers', label: 'Developers' },
+              { href: '/demo', label: 'Demo' },
               { href: '/contact', label: 'Contact' }
             ].map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 hover:scale-105 ${
+                className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 hover:scale-105 cursor-pointer ${
                   isScrolled
                     ? 'text-gray-600 hover:text-purple-600 hover:bg-purple-50'
                     : 'text-white/90 hover:text-white hover:bg-white/10'
@@ -85,8 +86,8 @@ const Header = () => {
                   ? 'bg-gray-50 border border-gray-200 text-gray-700 hover:bg-gray-100'
                   : 'bg-white/20 border border-white/30 text-white hover:bg-white/30'
               }`}>
-                <option className="text-gray-800">🇺🇸 English</option>
-                <option className="text-gray-800">🇧🇩 বাংলা</option>
+                <option className="text-gray-800">🇺🇸-Eng</option>
+                <option className="text-gray-800">🇧🇩-বাংলা</option>
               </select>
               <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2">
                 <svg className={`w-4 h-4 ${isScrolled ? 'text-gray-500' : 'text-white/70'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -97,20 +98,20 @@ const Header = () => {
 
             {/* CTA Buttons */}
             <div className="hidden md:flex items-center space-x-3">
-                                                <Link href="/demo">
-                     <Button 
-                       variant="ghost" 
-                       className={`font-medium transition-all duration-300 hover:scale-105 ${
+                  <Link href="/merchant-login">
+                     <Button
+                       variant="ghost"
+                       className={`font-medium transition-all duration-300 hover:scale-105 cursor-pointer ${
                          isScrolled
                            ? 'text-gray-600 hover:text-purple-600 hover:bg-purple-50'
                            : 'text-white/90 hover:text-purple-600 hover:bg-purple-50'
                        }`}
                      >
-                       Schedule Demo
+                       Merchant Login
                      </Button>
                    </Link>
                <Link href="/joinus">
-                <Button className="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white font-semibold px-6 py-2 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+                <Button className="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white font-semibold px-6 py-2 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl cursor-pointer">
                   Get Started
                 </Button>
               </Link>
@@ -119,7 +120,7 @@ const Header = () => {
             {/* Mobile Menu Button */}
             <button
               onClick={toggleMobileMenu}
-              className={`lg:hidden p-2 rounded-lg transition-all duration-300 ${
+              className={`lg:hidden p-2 rounded-lg transition-all duration-300 cursor-pointer ${
                 isScrolled
                   ? 'text-gray-600 hover:text-purple-600 hover:bg-purple-50'
                   : 'text-white/90 hover:text-white hover:bg-white/10'
@@ -154,7 +155,7 @@ const Header = () => {
                   key={item.href}
                   href={item.href}
                   onClick={closeMobileMenu}
-                  className="flex items-center space-x-3 px-4 py-3 rounded-lg text-gray-700 hover:text-purple-600 hover:bg-purple-50 transition-all duration-300"
+                  className="flex items-center space-x-3 px-4 py-3 rounded-lg text-gray-700 hover:text-purple-600 hover:bg-purple-50 transition-all duration-300 cursor-pointer"
                 >
                   <span className="text-lg">{item.icon}</span>
                   <span className="font-medium">{item.label}</span>
@@ -164,13 +165,13 @@ const Header = () => {
               {/* Mobile CTA Buttons */}
               <div className="pt-4 border-t border-gray-100">
                 <div className="grid grid-cols-1 gap-3">
-                                         <Link href="/demo" onClick={closeMobileMenu}>
-                         <Button variant="outline" className="w-full justify-center border-purple-200 text-purple-600 hover:bg-purple-50">
+                      <Link href="/demo" onClick={closeMobileMenu}>
+                         <Button variant="outline" className="w-full justify-center border-purple-200 text-purple-600 hover:bg-purple-50 cursor-pointer">
                            Schedule Demo
                          </Button>
                        </Link>
                   <Link href="/joinus" onClick={closeMobileMenu}>
-                    <Button className="w-full justify-center bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white">
+                    <Button className="w-full justify-center bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white cursor-pointer">
                       Get Started
                     </Button>
                   </Link>

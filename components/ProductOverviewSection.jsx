@@ -45,7 +45,7 @@ const ProductCard = ({ icon, title, description, features, link, gradient, badge
       </ul>
       
       {/* CTA Button */}
-      <Link href={link} className="block">
+      <Link href={link} className="block cursor-pointer">
         <Button className={`w-full bg-gradient-to-r ${gradient} hover:opacity-90 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 transform group-hover:scale-105 shadow-lg`}>
           Learn More
         </Button>
@@ -167,11 +167,11 @@ const ProductOverviewSection = () => {
               Join thousands of successful businesses using our products to increase revenue and improve customer experience.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button className="bg-white text-purple-600 hover:bg-gray-100 font-semibold py-4 px-8 rounded-xl text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+              <Button className="bg-white text-purple-600 hover:bg-gray-100 font-semibold py-4 px-8 rounded-xl text-lg transition-all duration-300 transform hover:scale-105 shadow-lg cursor-pointer">
                 Start Free Trial
               </Button>
                                <Link href="/demo">
-                     <Button variant="secondary" className="border-2 border-white text-white hover:bg-white hover:text-purple-600 font-semibold py-4 px-8 rounded-xl text-lg transition-all duration-300 transform hover:scale-105">
+                     <Button variant="secondary" className="border-2 border-white text-white hover:bg-white hover:text-purple-600 font-semibold py-4 px-8 rounded-xl text-lg transition-all duration-300 transform hover:scale-105 cursor-pointer">
                        Schedule Demo
                      </Button>
                    </Link>
