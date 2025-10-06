@@ -430,60 +430,106 @@ export default function JoinUsPage() {
                 step={4} 
                 currentStep={currentStep}
                 title="Choose Your Plan"
-                description="Select the plan that best fits your business needs"
+                description="Revolutionary pricing with zero transaction fees forever"
               >
-                <div className="space-y-6">
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    {/* Education Plan */}
-                    <div className="border-2 border-gray-200 rounded-xl p-6 hover:border-purple-300 transition-all duration-300">
-                      <div className="text-center">
-                        <h3 className="text-xl font-bold text-gray-800 mb-2">Education</h3>
-                        <p className="text-sm text-gray-600 mb-4">For Schools, Colleges & Universities</p>
-                        <div className="text-3xl font-bold text-purple-600 mb-4">Free</div>
-                        <div className="text-sm text-gray-500 mb-4">One-time setup (non-refundable)</div>
-                        <ul className="text-sm text-gray-600 space-y-2 text-left">
-                          <li>✓ 2.2% transaction fee (Cards)</li>
-                          <li>✓ 1.50% transaction fee (Mobile Money)</li>
-                          <li>✓ All payment methods included</li>
-                          <li>✓ Dedicated support</li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    {/* Growth Plan */}
-                    <div className="border-2 border-purple-500 rounded-xl p-6 bg-purple-50 relative">
-                      <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
-                        <span className="bg-gradient-to-r from-purple-600 to-indigo-600 text-white px-4 py-1 rounded-full text-sm font-medium">
-                          Most Popular
+                <div className="space-y-8">
+                  {/* Main Free Plan */}
+                  <div className="max-w-3xl mx-auto">
+                    <div className="border-4 border-purple-500 rounded-2xl p-8 bg-gradient-to-br from-purple-50 via-white to-blue-50 relative shadow-xl">
+                      <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
+                        <span className="bg-gradient-to-r from-purple-600 to-indigo-600 text-white px-8 py-2 rounded-full text-base font-bold shadow-lg flex items-center">
+                          <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                          </svg>
+                          Best Value - Forever Free
                         </span>
                       </div>
-                      <div className="text-center">
-                        <h3 className="text-xl font-bold text-gray-800 mb-2">Growth</h3>
-                        <p className="text-sm text-gray-600 mb-4">For Growing Businesses</p>
-                        <div className="text-3xl font-bold text-purple-600 mb-4">$50</div>
-                        <div className="text-sm text-gray-500 mb-4">One-time setup (non-refundable)</div>
-                        <ul className="text-sm text-gray-600 space-y-2 text-left">
-                          <li>✓ 2% transaction fee (Cards)</li>
-                          <li>✓ 1.90% transaction fee (Mobile Money)</li>
-                          <li>✓ All payment methods included</li>
-                          <li>✓ Priority support</li>
-                        </ul>
+                      
+                      <div className="text-center pt-4">
+                        <h3 className="text-3xl font-bold text-gray-900 mb-3">Standard Plan</h3>
+                        <p className="text-lg text-gray-600 mb-6">Perfect for all businesses</p>
+                        
+                        {/* Price Highlight */}
+                        <div className="bg-white rounded-2xl p-6 shadow-lg mb-6 border-2 border-purple-200">
+                          <div className="flex justify-center items-baseline mb-4">
+                            <span className="text-6xl font-bold bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">FREE</span>
+                          </div>
+                          <p className="text-gray-600 font-semibold mb-3">Forever Free • No Expiration</p>
+                          <div className="space-y-2">
+                            <div className="flex items-center justify-center text-green-600 font-bold">
+                              <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                              </svg>
+                              0% Transaction Fee
+                            </div>
+                            <div className="flex items-center justify-center text-blue-600 font-bold">
+                              <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                              </svg>
+                              Zero Setup Cost
+                            </div>
+                          </div>
+                        </div>
+
+                        {/* Features */}
+                        <div className="grid md:grid-cols-2 gap-4 text-left">
+                          {[
+                            "Unlimited Transactions",
+                            "All Payment Methods Included",
+                            "Dual Wallet System (BDT & USD)",
+                            "Multiple Payment Options",
+                            "Instant & Flexible Settlements",
+                            "Smart Merchant Dashboard",
+                            "Role-Based Access Control",
+                            "QR & Link-Based Payments",
+                            "AI-Powered Analytics",
+                            "Bank-Grade Security",
+                            "API & SDK Integration",
+                            "24/7 Support"
+                          ].map((feature, index) => (
+                            <div key={index} className="flex items-start">
+                              <svg className="w-6 h-6 text-green-500 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                              </svg>
+                              <span className="text-gray-700 font-medium">{feature}</span>
+                            </div>
+                          ))}
+                        </div>
                       </div>
                     </div>
+                  </div>
 
-                    {/* SME Plan */}
-                    <div className="border-2 border-gray-200 rounded-xl p-6 hover:border-purple-300 transition-all duration-300">
+                  {/* Optional Add-on */}
+                  <div className="max-w-3xl mx-auto">
+                    <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8 border-2 border-blue-200">
+                      <div className="text-center mb-6">
+                        <div className="inline-flex items-center px-6 py-2 rounded-full bg-white border-2 border-blue-300 mb-4">
+                          <svg className="w-5 h-5 mr-2 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4" />
+                          </svg>
+                          <span className="text-blue-700 font-bold">Optional Add-On</span>
+                        </div>
+                        <h4 className="text-2xl font-bold text-gray-900 mb-2">SMS & Services Package</h4>
+                        <p className="text-gray-600">Enhanced notifications and premium features</p>
+                      </div>
+
+                      <div className="grid md:grid-cols-2 gap-4 mb-6">
+                        <div className="bg-white rounded-xl p-6 text-center border-2 border-purple-100">
+                          <div className="text-3xl mb-2">🇧🇩</div>
+                          <div className="text-3xl font-bold text-purple-600">৳999</div>
+                          <div className="text-gray-600 text-sm mt-1">/year (BDT)</div>
+                        </div>
+                        <div className="bg-white rounded-xl p-6 text-center border-2 border-blue-100">
+                          <div className="text-3xl mb-2">🌎</div>
+                          <div className="text-3xl font-bold text-blue-600">$10</div>
+                          <div className="text-gray-600 text-sm mt-1">/year (USD)</div>
+                        </div>
+                      </div>
+
                       <div className="text-center">
-                        <h3 className="text-xl font-bold text-gray-800 mb-2">SME</h3>
-                        <p className="text-sm text-gray-600 mb-4">For Small & Medium Enterprises</p>
-                        <div className="text-3xl font-bold text-purple-600 mb-4">$75</div>
-                        <div className="text-sm text-gray-500 mb-4">One-time setup (non-refundable)</div>
-                        <ul className="text-sm text-gray-600 space-y-2 text-left">
-                          <li>✓ 2% transaction fee (Cards)</li>
-                          <li>✓ 1.90% transaction fee (Mobile Money)</li>
-                          <li>✓ All payment methods included</li>
-                          <li>✓ Premium support</li>
-                        </ul>
+                        <p className="text-sm text-gray-600">
+                          Includes: SMS Alerts • Email Notifications • Custom Templates • Priority Support • Advanced Analytics
+                        </p>
                       </div>
                     </div>
                   </div>

@@ -73,78 +73,32 @@ const PricingCard = ({ plan, features, gradient, badge, popular }) => (
 export default function PricingPage() {
   const pricingPlans = [
     {
-      name: "Education",
-      description: "Best for Educational Institutes",
-      price: "Call For Price",
+      name: "Standard Plan",
+      description: "Perfect for all businesses",
+      price: "FREE",
       period: null,
-      subtitle: "One-time setup fee (non-refundable)",
-      gradient: "from-pink-500 to-rose-500",
-      popular: false,
-      features: [
-        "No Monthly Fee",
-        "2.2% per transaction (Visa & MasterCard)",
-        "1.50% per transaction (bKash, Nagad etc.)",
-        "EMI & Discount Offer Facility",
-        "Invoice Generator (SMS & Email)",
-        "QR Payment Facility",
-        "Payment Link Generation",
-        "Transaction Alert: SMS & Email",
-        "Statement using Portal & App",
-        "Support: Call, Email & Chat",
-        "Dedicated Key Account Manager",
-        "Single Store Support",
-        "All Payment Methods Included",
-        "No Additional Payment Method Fee"
-      ]
-    },
-    {
-      name: "SME",
-      description: "Best for Small & Medium Enterprises",
-      price: "Call For Price",
-      period: null,
-      subtitle: "One-time setup fee (non-refundable)",
+      subtitle: "Forever Free • No Hidden Costs",
       gradient: "from-purple-500 to-indigo-500",
       popular: true,
       features: [
-        "No Monthly Fee",
-        "2% per transaction (Visa & MasterCard)",
-        "1.90% per transaction (bKash, Nagad etc)",
-        "EMI & Discount Offer Facility",
-        "Invoice Generator (SMS & Email)",
-        "QR Payment Facility",
-        "Payment Link Generation",
-        "Transaction Alert: SMS & Email",
-        "Statement using Portal & App",
-        "Support: Call, Email & Chat",
-        "Dedicated Key Account Manager",
-        "Single Store Support",
+        "✨ 0% Transaction Fee (Forever)",
+        "✨ Zero Setup Cost",
+        "Unlimited Transactions",
         "All Payment Methods Included",
-        "No Additional Payment Method Fee"
-      ]
-    },
-    {
-      name: "Growth",
-      description: "Best for Growing Businesses",
-      price: "Call For Price",
-      period: null,
-      subtitle: "One-time setup fee (non-refundable)",
-      gradient: "from-indigo-500 to-blue-500",
-      popular: false,
-      features: [
-        "No Monthly Fee",
-        "2% per transaction (Visa & MasterCard)",
-        "1.90% per transaction (bKash, Nagad etc)",
-        "EMI & Discount Offer Facility",
-        "Invoice Generator (SMS & Email)",
-        "QR Payment Facility",
+        "Dual Wallet System (BDT & USD)",
+        "Multiple Payment Options",
+        "Instant & Flexible Settlements",
+        "Smart Merchant Dashboard",
+        "Role-Based Access Control",
+        "QR & Link-Based Payments",
+        "AI-Powered Analytics & Reports",
+        "Bank-Grade Security",
+        "Seamless API & SDK Integration",
         "Payment Link Generation",
-        "Transaction Alert: SMS & Email",
-        "Statement using Portal & App",
-        "Support: Call, Email & Chat",
-        "Dedicated Key Account Manager",
-        "Single Store Support",
-        "All Payment Methods Included",
-        "No Additional Payment Method Fee"
+        "Invoice Generator",
+        "Transaction Alerts",
+        "EMI & Discount Offers",
+        "Multi-Currency Support"
       ]
     }
   ];
@@ -218,34 +172,143 @@ export default function PricingPage() {
               </svg>
               Pricing Plans
             </div>
-            <h1 className="text-5xl font-bold text-gray-800 mb-6">
-              Simple, <span className="bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">Transparent</span> Pricing
+            <h1 className="text-5xl lg:text-6xl font-bold text-gray-800 mb-6 leading-tight">
+              <span className="bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">Zero Fees</span>, Maximum Value
             </h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Choose the perfect plan for your business. All plans include our core features with no hidden fees or monthly charges.
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-8">
+              Revolutionary pricing that puts your business first. No transaction fees, no setup costs, no hidden charges. Ever.
             </p>
+            
+            {/* Key Highlights */}
+            <div className="flex flex-wrap justify-center gap-6 mt-10">
+              <div className="flex items-center bg-white rounded-full px-6 py-3 shadow-lg border-2 border-green-100">
+                <svg className="w-6 h-6 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                <span className="font-bold text-gray-800">0% Transaction Fee</span>
+              </div>
+              <div className="flex items-center bg-white rounded-full px-6 py-3 shadow-lg border-2 border-blue-100">
+                <svg className="w-6 h-6 text-blue-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                <span className="font-bold text-gray-800">Zero Setup Cost</span>
+              </div>
+              <div className="flex items-center bg-white rounded-full px-6 py-3 shadow-lg border-2 border-purple-100">
+                <svg className="w-6 h-6 text-purple-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                <span className="font-bold text-gray-800">No Hidden Charges</span>
+              </div>
+            </div>
           </div>
         </section>
 
         {/* Pricing Cards */}
         <section className="py-20 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Main Pricing Card - Centered */}
+            <div className="max-w-2xl mx-auto mb-16">
               {pricingPlans.map((plan, index) => (
                 <PricingCard key={index} {...plan} />
               ))}
             </div>
+
+            {/* Additional Services Card */}
+            <div className="max-w-4xl mx-auto">
+              <div className="bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 rounded-3xl shadow-xl p-10 border-2 border-purple-200">
+                <div className="text-center mb-10">
+                  <div className="inline-flex items-center px-6 py-3 rounded-full bg-gradient-to-r from-purple-100 to-blue-100 border-2 border-purple-200 mb-6">
+                    <svg className="w-6 h-6 mr-2 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                    </svg>
+                    <span className="text-purple-700 font-bold">SMS & Services Package</span>
+                  </div>
+                  <h3 className="text-4xl font-bold text-gray-900 mb-4">
+                    Optional Add-On Services
+                  </h3>
+                  <p className="text-xl text-gray-600 mb-8">
+                    Enhance your payment gateway with SMS notifications and premium services
+                  </p>
+                </div>
+
+                <div className="grid md:grid-cols-2 gap-6 mb-8">
+                  {/* BDT Pricing */}
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-purple-100 hover:border-purple-300 hover:shadow-xl transition-all duration-300">
+                    <div className="text-center">
+                      <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-purple-100 to-blue-100 rounded-2xl mb-4">
+                        <span className="text-3xl">🇧🇩</span>
+                      </div>
+                      <h4 className="text-2xl font-bold text-gray-900 mb-2">For Bangladesh</h4>
+                      <div className="mb-6">
+                        <span className="text-5xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">৳999</span>
+                        <span className="text-gray-600 ml-2 text-lg">/year</span>
+                      </div>
+                      <p className="text-gray-600">Billed annually in BDT</p>
+                    </div>
+                  </div>
+
+                  {/* USD Pricing */}
+                  <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-blue-100 hover:border-blue-300 hover:shadow-xl transition-all duration-300">
+                    <div className="text-center">
+                      <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-100 to-purple-100 rounded-2xl mb-4">
+                        <span className="text-3xl">🌎</span>
+                      </div>
+                      <h4 className="text-2xl font-bold text-gray-900 mb-2">International</h4>
+                      <div className="mb-6">
+                        <span className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">$10</span>
+                        <span className="text-gray-600 ml-2 text-lg">/year</span>
+                      </div>
+                      <p className="text-gray-600">Billed annually in USD</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Features Included */}
+                <div className="bg-white rounded-2xl p-8 shadow-lg">
+                  <h4 className="text-xl font-bold text-gray-900 mb-6 text-center">Package Includes:</h4>
+                  <div className="grid md:grid-cols-2 gap-4">
+                    {[
+                      "SMS Transaction Alerts",
+                      "Email Notifications",
+                      "Invoice Generation via SMS",
+                      "Payment Confirmations",
+                      "Custom SMS Templates",
+                      "Delivery Status Reports",
+                      "Priority Support Access",
+                      "Advanced Analytics Reports"
+                    ].map((feature, index) => (
+                      <div key={index} className="flex items-start">
+                        <svg className="w-6 h-6 text-green-500 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <span className="text-gray-700 font-medium">{feature}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                {/* CTA */}
+                <div className="text-center mt-8">
+                  <Link href="/joinus" className="inline-block">
+                    <Button className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white font-bold py-4 px-12 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg text-lg">
+                      Add SMS Package
+                    </Button>
+                  </Link>
+                  <p className="text-gray-500 text-sm mt-4">Optional • Can be added anytime</p>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 
-        {/* Why Choose ShortlyPay Section */}
+        {/* Why Choose Us Section */}
         <section className="py-20 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-4xl font-bold text-gray-800 mb-4">
-              Why Choose ShortlyPay?
+              Why Choose ZeroPay?
             </h2>
             <p className="text-xl text-gray-600 mb-16 max-w-3xl mx-auto">
-              Discover the advantages that make ShortlyPay the preferred choice for businesses worldwide.
+              Discover the advantages that make ZeroPay the preferred choice for businesses worldwide.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {whyChooseUs.map((item, index) => (
@@ -265,43 +328,43 @@ export default function PricingPage() {
         <section className="py-20 bg-gray-50">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-4xl font-bold text-gray-800 mb-4 text-center">Frequently Asked Questions</h2>
-            <p className="text-xl text-gray-600 mb-12 text-center">Find answers to the most common questions about ShortlyPay.</p>
+            <p className="text-xl text-gray-600 mb-12 text-center">Find answers to the most common questions about ZeroPay.</p>
             <div className="space-y-4">
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem value="item-1">
-                  <AccordionTrigger>How to get started with ShortlyPay?</AccordionTrigger>
+                  <AccordionTrigger>Is there really zero transaction fee?</AccordionTrigger>
                   <AccordionContent>
-                    Getting started with ShortlyPay is easy. Simply sign up for an account, choose your desired pricing plan, and follow our integration guide to connect your systems.
+                    Yes! We charge absolutely 0% transaction fee on all payments processed through our gateway. This applies forever with no limits on transaction volume or amount.
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-2">
-                  <AccordionTrigger>Is my transaction safe over online?</AccordionTrigger>
+                  <AccordionTrigger>What is included in the SMS & Services package?</AccordionTrigger>
                   <AccordionContent>
-                    Yes, all transactions processed through ShortlyPay are secured with state-of-the-art encryption and fraud detection technologies to ensure your data and funds are safe.
+                    The SMS & Services package (৳999/year or $10/year) includes transaction alerts, email notifications, invoice generation via SMS, payment confirmations, custom templates, delivery reports, priority support, and advanced analytics.
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-3">
-                  <AccordionTrigger>Is Debit & Credit Card allowed over ShortlyPay?</AccordionTrigger>
+                  <AccordionTrigger>Is there any setup cost or onboarding fee?</AccordionTrigger>
                   <AccordionContent>
-                    ShortlyPay supports a wide range of payment methods, including major debit and credit cards, as well as various local and international payment options.
+                    No, there is zero setup cost. You can start using ZeroPay immediately without any initial investment or onboarding fees.
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-4">
-                  <AccordionTrigger>Is there any monthly or hidden charges?</AccordionTrigger>
+                  <AccordionTrigger>Are there any hidden charges or monthly fees?</AccordionTrigger>
                   <AccordionContent>
-                    No, ShortlyPay believes in transparent pricing. All our plans clearly outline the costs, and there are no hidden fees or monthly charges beyond what is stated in your chosen plan.
+                    No hidden charges whatsoever. The core payment gateway is completely free. The only optional cost is the SMS & Services package at ৳999/year or $10/year if you want those additional features.
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-5">
-                  <AccordionTrigger>Do you provide Development Support?</AccordionTrigger>
+                  <AccordionTrigger>How secure are the transactions?</AccordionTrigger>
                   <AccordionContent>
-                    Absolutely! We provide comprehensive development support, including detailed API documentation, SDKs, and a dedicated support team to assist your developers during integration.
+                    All transactions are protected with bank-grade security, PCI DSS compliance, end-to-end encryption, and multi-layered fraud detection to ensure complete safety of your data and funds.
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-6">
-                  <AccordionTrigger>How do you provide Technical Support?</AccordionTrigger>
+                  <AccordionTrigger>Can I use both BDT and USD wallets?</AccordionTrigger>
                   <AccordionContent>
-                    Our technical support team is available 24/7 via email, chat, and phone. We offer prompt assistance for any technical issues or queries you may have.
+                    Yes! Our dual wallet system allows you to seamlessly manage payments in both Bangladeshi Taka (BDT) and US Dollars (USD) with dedicated wallets for local and international transactions.
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>

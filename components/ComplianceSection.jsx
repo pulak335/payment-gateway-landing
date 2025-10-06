@@ -167,27 +167,7 @@ const ComplianceSection = () => {
           </div>
         </div>
 
-        {/* Trust Indicators */}
-        <div className="text-center">
-          <div className="bg-gradient-to-r from-purple-600 to-indigo-600 rounded-3xl p-12 text-white max-w-4xl mx-auto shadow-2xl">
-            <h3 className="text-4xl font-bold mb-6">
-              Trusted by Thousands of Businesses
-            </h3>
-            <p className="text-xl text-purple-100 mb-8 max-w-2xl mx-auto">
-              Join the growing community of businesses that trust ShortlyPay for their payment security and compliance needs.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-white text-purple-600 hover:bg-gray-100 font-semibold py-4 px-8 rounded-xl text-lg transition-all duration-300 transform hover:scale-105 shadow-lg cursor-pointer">
-                Learn More
-              </button>
-              <Link href="/demo">
-                <button className="border-2 border-white text-white hover:bg-white hover:text-purple-600 font-semibold py-4 px-8 rounded-xl text-lg transition-all duration-300 transform hover:scale-105 cursor-pointer">
-                  Schedule Demo
-                </button>
-              </Link>
-            </div>
-          </div>
-        </div>
+
       </div>
     </section>
   );
